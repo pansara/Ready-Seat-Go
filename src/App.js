@@ -7,11 +7,14 @@ const Appa = styled.div`
 text-align: center;
 `;
 
+const AppLogo = styled.img`
+height: 40vmin;`;
+
 function App() {
   return (
     <Appa className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <AppLogo src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
